@@ -1,0 +1,23 @@
+16:33:48.882 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:33:48.916 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:33:48.917 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:33:48.934 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:33:48.934 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:33:48.951 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:33:48.951 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:33:48.968 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:33:48.969 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:33:48.986 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:33:48.987 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:33:49.005 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:33:49.006 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:33:49.047 [main] INFO  testcases.OrderPlacing -  SignUp the New Account
+16:33:51.658 [main] INFO  testcases.OrderPlacing -  Login the Account
+16:33:54.361 [main] INFO  testcases.OrderPlacing - Ordering the lap
+16:34:00.101 [main] INFO  testcases.OrderPlacing - Placing the order
+16:34:07.143 [main] INFO  testcases.OrderPlacing - Logout
+16:34:07.299 [main] INFO  testcases.OrderPlacing -  SignUp the New Account
+16:34:09.795 [main] INFO  testcases.OrderPlacing -  Login the Account
+16:34:12.472 [main] INFO  testcases.OrderPlacing - Ordering the lap
+16:34:18.164 [main] INFO  testcases.OrderPlacing - Placing the order
+16:34:22.887 [main] INFO  testcases.OrderPlacing -  SignUp the New Account
