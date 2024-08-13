@@ -5,9 +5,9 @@
     <classes>
       <class name="testcases.OrderPlacing">
         <methods>
-          <include name="purchasing" invocation-numbers="0 1 2"/>
-          <include name="setup"/>
+          <include name="signUp" invocation-numbers="0 1 2"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testcases.OrderPlacing -->
     </classes>

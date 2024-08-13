@@ -5,7 +5,7 @@
     <classes>
       <class name="testcases.OrderPlacing">
         <methods>
-          <include name="purchasing" invocation-numbers="1 2"/>
+          <include name="purchasing"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>

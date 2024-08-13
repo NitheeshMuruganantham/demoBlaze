@@ -3,12 +3,17 @@ package pom;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class AccountProcess extends BasePom {
 	public WebDriver driver;
+	String signAlertValue="";
 	public AccountProcess(WebDriver driver) {
 		super(driver);
+		this.driver=driver;
+		PageFactory.initElements(driver,this);	
 	}
+	
 	@FindBy(id="signin2")
 	WebElement signUp;
 	
@@ -35,6 +40,8 @@ public class AccountProcess extends BasePom {
 	
 	@FindBy(xpath="//*[@onclick='logIn()']")
 	WebElement logButton;
+	
+
 	
 	
 	//Actions
@@ -69,4 +76,24 @@ public class AccountProcess extends BasePom {
 	public void loginSubmit() {
 		logButton.click();
 	}
-}
+	
+	public void signUpAlert() {
+		signAlertValue= driver.switchTo().alert().getText();
+		if (signAlertValue.equalsIgnoreCase("This user already exist."))
+		{
+			driver.switchTo().alert().accept();
+			signUpCancelButton();
+		}
+		if(signAlertValue.equalsIgnoreCase("Sign up successful."))
+		{
+			driver.switchTo().alert().accept();
+			signUpCancelButton();
+		}
+	}
+	
+	}
+	
+	
+	
+	
+

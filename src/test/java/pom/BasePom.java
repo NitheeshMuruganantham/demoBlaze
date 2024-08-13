@@ -7,7 +7,10 @@ public class BasePom {
 	public WebDriver driver;
 	public BasePom(WebDriver driver) {
 		this.driver=driver;
-		PageFactory.initElements(driver,this);		
+		PageFactory.initElements(driver,this);	
+		
 	}
-
+public void alertAccept() {
+	driver.switchTo().alert().accept();
+}
 }

@@ -1,4 +1,4 @@
-package baseClass;
+package testcases;
 
 import java.time.Duration;
 
@@ -11,13 +11,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeGroups;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseProcess {
 	public Logger logger;
 	public WebDriver driver;
 	@BeforeClass
 	public void setup() {
 		logger=LogManager.getLogger(this.getClass());//
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jegadeesh\\Downloads\\chromedriver-win64\\nitheesh\\chromedriver-win64\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.navigate().to("https://www.demoblaze.com/index.html");

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-15T16:45:12 IST" name="Default suite" finished-at="2024-04-15T16:45:37 IST" duration-ms="24277">
+  <suite started-at="2024-08-13T12:32:34 OMST" name="Default suite" finished-at="2024-08-13T12:32:51 OMST" duration-ms="16848">
     <groups>
     </groups>
-    <test started-at="2024-04-15T16:45:12 IST" name="Default test" finished-at="2024-04-15T16:45:37 IST" duration-ms="24277">
+    <test started-at="2024-08-13T12:32:34 OMST" name="Default test" finished-at="2024-08-13T12:32:51 OMST" duration-ms="16848">
       <class name="testcases.OrderPlacing">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.OrderPlacing@3e694b3f]" started-at="2024-04-15T16:45:12 IST" name="setup" finished-at="2024-04-15T16:45:18 IST" duration-ms="5179" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.OrderPlacing@4a003cbe]" started-at="2024-08-13T12:32:34 OMST" name="setup" finished-at="2024-08-13T12:32:39 OMST" duration-ms="4681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="purchasing(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.OrderPlacing@3e694b3f]" started-at="2024-04-15T16:45:19 IST" name="purchasing" data-provider="LoginData" finished-at="2024-04-15T16:45:25 IST" duration-ms="6114" status="FAIL">
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.OrderPlacing@4a003cbe]" started-at="2024-08-13T12:32:40 OMST" name="signUp" data-provider="LoginData" finished-at="2024-08-13T12:32:50 OMST" duration-ms="9400" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -54,33 +54,31 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=123.0.6312.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, clickElement {id=f.5BA776EEF454945076887C6DD3F78FBE.d.9A7D2259F02266AF8B3B9A1B53EE19CA.e.148}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9aaa2d831f3961a59c614baa12b9d1c2)] -> xpath: //*[text()='MacBook air']]
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2]]>
+Command: [9ddc33dae8d378ff66de94de2846dc9a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=123.0.6312.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, clickElement {id=f.5BA776EEF454945076887C6DD3F78FBE.d.9A7D2259F02266AF8B3B9A1B53EE19CA.e.148}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9aaa2d831f3961a59c614baa12b9d1c2)] -> xpath: //*[text()='MacBook air']]
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+Command: [9ddc33dae8d378ff66de94de2846dc9a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -88,16 +86,13 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
-at pom.Order.selectingMac(Order.java:71)
-at testcases.OrderPlacing.purchasing(OrderPlacing.java:55)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1163)
+at pom.BasePom.alertAccept(BasePom.java:14)
+at testcases.OrderPlacing.signUp(OrderPlacing.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
@@ -106,7 +101,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:819)
 at org.testng.TestRunner.run(TestRunner.java:619)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -120,15 +115,15 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- purchasing -->
-        <test-method signature="purchasing(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.OrderPlacing@3e694b3f]" started-at="2024-04-15T16:45:25 IST" name="purchasing" data-provider="LoginData" finished-at="2024-04-15T16:45:35 IST" duration-ms="9881" status="FAIL">
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.OrderPlacing@4a003cbe]" started-at="2024-08-13T12:32:50 OMST" name="signUp" data-provider="LoginData" finished-at="2024-08-13T12:32:50 OMST" duration-ms="13" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -171,33 +166,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: chrome=123.0.6312.122)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, clickElement {id=f.5BA776EEF454945076887C6DD3F78FBE.d.9A7D2259F02266AF8B3B9A1B53EE19CA.e.149}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9aaa2d831f3961a59c614baa12b9d1c2)] -> id: signin2]
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2]]>
+Command: [9ddc33dae8d378ff66de94de2846dc9a, findElement {value=signin2, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: chrome=123.0.6312.122)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, clickElement {id=f.5BA776EEF454945076887C6DD3F78FBE.d.9A7D2259F02266AF8B3B9A1B53EE19CA.e.149}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9aaa2d831f3961a59c614baa12b9d1c2)] -> id: signin2]
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+Command: [9ddc33dae8d378ff66de94de2846dc9a, findElement {value=signin2, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -205,16 +198,17 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
-at pom.AccountProcess.signUpProcess(AccountProcess.java:42)
-at testcases.OrderPlacing.purchasing(OrderPlacing.java:24)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at pom.AccountProcess.signUpProcess(AccountProcess.java:49)
+at testcases.OrderPlacing.signUp(OrderPlacing.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
@@ -223,7 +217,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:819)
 at org.testng.TestRunner.run(TestRunner.java:619)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -237,15 +231,15 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- purchasing -->
-        <test-method signature="purchasing(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.OrderPlacing@3e694b3f]" started-at="2024-04-15T16:45:35 IST" name="purchasing" data-provider="LoginData" finished-at="2024-04-15T16:45:35 IST" duration-ms="19" status="FAIL">
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.OrderPlacing@4a003cbe]" started-at="2024-08-13T12:32:50 OMST" name="signUp" data-provider="LoginData" finished-at="2024-08-13T12:32:50 OMST" duration-ms="9" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -288,31 +282,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=123.0.6312.122)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, findElement {value=signin2, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2]]>
+Command: [9ddc33dae8d378ff66de94de2846dc9a, findElement {value=signin2, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=123.0.6312.122)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, findElement {value=signin2, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+Command: [9ddc33dae8d378ff66de94de2846dc9a, findElement {value=signin2, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -327,10 +321,10 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
-at pom.AccountProcess.signUpProcess(AccountProcess.java:42)
-at testcases.OrderPlacing.purchasing(OrderPlacing.java:24)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at pom.AccountProcess.signUpProcess(AccountProcess.java:49)
+at testcases.OrderPlacing.signUp(OrderPlacing.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
@@ -339,7 +333,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:819)
 at org.testng.TestRunner.run(TestRunner.java:619)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -353,40 +347,40 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- purchasing -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OrderPlacing@3e694b3f]" started-at="2024-04-15T16:45:35 IST" name="tearDown" finished-at="2024-04-15T16:45:37 IST" duration-ms="1528" status="FAIL">
+        </test-method> <!-- signUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OrderPlacing@4a003cbe]" started-at="2024-08-13T12:32:50 OMST" name="tearDown" finished-at="2024-08-13T12:32:51 OMST" duration-ms="1518" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=123.0.6312.122)
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2]]>
+Command: [9ddc33dae8d378ff66de94de2846dc9a, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=123.0.6312.122)
+  (Session info: chrome=127.0.6533.100)
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa2d831f3961a59c614baa12b9d1c2, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 122.0.6261.69 (81bc525b6a36..., userDataDir: C:\Users\JEGADE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51193}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51193/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aaa2d831f3961a59c614baa12b9d1c2
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+Command: [9ddc33dae8d378ff66de94de2846dc9a, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\nitheesh\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62571/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ddc33dae8d378ff66de94de2846dc9a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -397,9 +391,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:405)
-at baseClass.BaseProcess.tearDown(BaseProcess.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at testcases.BaseProcess.tearDown(BaseProcess.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
@@ -407,7 +401,7 @@ at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:819)
 at org.testng.TestRunner.run(TestRunner.java:619)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -421,8 +415,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.WebDriverException -->
